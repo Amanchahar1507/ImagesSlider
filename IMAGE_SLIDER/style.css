@@ -1,0 +1,31 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:60vw;
+    height:60vh;
+    margin:auto;
+    margin-top:150px;
+   position:relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+.title{
+    height:60vh;
+    width:60vw;
+    position:absolute;
+    transition: 1s;
+}
+
+.nav{
+    text-align: center;
+    margin-top:20px;
+}
+.nav button{
+    font-size:29px;
+    padding:10px; 
+}
